@@ -2,17 +2,19 @@ const structure = [
      {
           id: "0", 
           parent: "N/A", 
-          child: 1, 
+          child: "1", 
           data: {
-               // Data Here
+               name: "John"
           }
      }, 
      {
-          id: "1", 
-          parent: 0, 
+          id: "0", 
+          parent: "0", 
           child: "N/A", 
           data: {
-               // Data Here
+               name: "Doe"
           }
      }
-]
+];
+
+module.exports = structure;
